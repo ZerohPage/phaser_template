@@ -1,2 +1,3 @@
 # phaser_template
-General starter template for phaser projects1
+
+General starter template for phaser projects
