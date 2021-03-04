@@ -28,11 +28,11 @@ var config = {
     function create ()
     {
         this.add.image(400, 300, 'sky');
-
+        /*
         var particles = this.add.particles('red');
 
         var emitter = particles.createEmitter({
-            speed: 100,
+            speed: 10,
             scale: { start: 1, end: 0 },
             blendMode: 'ADD'
         });
@@ -42,6 +42,11 @@ var config = {
         logo.setVelocity(100, 200);
         logo.setBounce(1, 1);
         logo.setCollideWorldBounds(true);
-
+        
         emitter.startFollow(logo);
+        */
+    }
+
+    function update() {
+        
     }
