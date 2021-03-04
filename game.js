@@ -18,15 +18,13 @@ var config = {
 
     function preload ()
     {
-        this.load.setBaseURL('http://labs.phaser.io');
-
-        this.load.image('sky', 'assets/skies/space3.png');
-        this.load.image('logo', 'assets/sprites/phaser3-logo.png');
-        this.load.image('red', 'assets/particles/red.png');
+        //this.load.setBaseURL('http://labs.phaser.io');
+        this.load.image('sky', 'assets/gfx/bg.png');
     }
 
     function create ()
     {
+        this.backgroundColor = '#124184';
         this.add.image(400, 300, 'sky');
         /*
         var particles = this.add.particles('red');
